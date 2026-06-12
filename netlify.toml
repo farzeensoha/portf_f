@@ -1,0 +1,19 @@
+[build]
+  command = "yarn build"
+  publish = "build"
+
+[dev]
+  command = "yarn start"
+  port = 3000
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Environment variables (add these in Netlify dashboard or below)
+# [context.production.environment]
+# REACT_APP_EMAILJS_PUBLIC_KEY = "your_key"
+# REACT_APP_EMAILJS_SERVICE_ID = "your_service_id"
+# REACT_APP_EMAILJS_TEMPLATE_ID = "your_template_id"
+# REACT_APP_CONTACT_EMAIL = "your_email"
