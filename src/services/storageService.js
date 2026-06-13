@@ -44,10 +44,19 @@ export const authService = {
   isAuthed() {
     return localStorage.getItem(AUTH_KEY) === "1";
   },
-  login(password, expected) {
-    if (password && password === expected) {
-      localStorage.setItem(AUTH_KEY, "1");
-      return true;
+  async login(password) {
+    try {
+      const res = await fetch("/api/admin-login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+      });
+      if (res.ok) {
+        localStorage.setItem(AUTH_KEY, "1");
+        return true;
+      }
+    } catch {
+      // network error
     }
     return false;
   },
