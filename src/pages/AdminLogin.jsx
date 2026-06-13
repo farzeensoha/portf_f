@@ -4,17 +4,19 @@ import { useNavigate } from "react-router-dom";
 import { Lock, ArrowRight, ArrowLeft } from "lucide-react";
 import { authService } from "@/services/storageService";
 
-const ADMIN_PASSWORD = process.env.REACT_APP_ADMIN_PASSWORD || "";
-
 export default function AdminLogin({ onSuccess }) {
   const navigate = useNavigate();
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
-  const submit = (e) => {
+  const submit = async (e) => {
     e.preventDefault();
-    if (authService.login(password, ADMIN_PASSWORD)) {
-      setError("");
+    setLoading(true);
+    setError("");
+    const ok = await authService.login(password);
+    setLoading(false);
+    if (ok) {
       onSuccess?.();
     } else {
       setError("Incorrect password.");
@@ -63,9 +65,10 @@ export default function AdminLogin({ onSuccess }) {
         <button
           type="submit"
           data-testid="admin-login-btn"
-          className="mt-8 w-full inline-flex items-center justify-center gap-3 bg-white text-[#0B0F14] px-7 py-4 rounded-full text-sm tracking-[0.2em] uppercase hover:bg-[#A8C3A0] transition"
+          disabled={loading}
+          className="mt-8 w-full inline-flex items-center justify-center gap-3 bg-white text-[#0B0F14] px-7 py-4 rounded-full text-sm tracking-[0.2em] uppercase hover:bg-[#A8C3A0] transition disabled:opacity-50"
         >
-          Enter dashboard <ArrowRight className="w-4 h-4" />
+          {loading ? "Verifying…" : "Enter dashboard"} <ArrowRight className="w-4 h-4" />
         </button>
       </motion.form>
     </div>
