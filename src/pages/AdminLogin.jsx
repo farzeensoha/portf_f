@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 import { Lock, ArrowRight, ArrowLeft } from "lucide-react";
 import { authService } from "@/services/storageService";
-import { ADMIN_DEFAULT_PASSWORD } from "@/data/mockData";
+
+const ADMIN_PASSWORD = process.env.REACT_APP_ADMIN_PASSWORD || "";
 
 export default function AdminLogin({ onSuccess }) {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ export default function AdminLogin({ onSuccess }) {
 
   const submit = (e) => {
     e.preventDefault();
-    if (authService.login(password, ADMIN_DEFAULT_PASSWORD)) {
+    if (authService.login(password, ADMIN_PASSWORD)) {
       setError("");
       onSuccess?.();
     } else {
@@ -57,7 +58,6 @@ export default function AdminLogin({ onSuccess }) {
             placeholder="••••••••"
           />
           {error && <p data-testid="admin-error" className="mt-3 text-sm text-red-400">{error}</p>}
-          <p className="mt-3 text-[11px] text-white/30">Default: <span className="text-white/60 font-mono">{ADMIN_DEFAULT_PASSWORD}</span></p>
         </div>
 
         <button

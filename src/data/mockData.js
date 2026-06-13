@@ -505,5 +505,3 @@ personalNote: {
     "I am a Software Engineer passionate about building impactful products at the intersection of software development, design, artificial intelligence and automation.\n\nThroughout my academic journey, I have always been curious and enthusiastic about gaining exposure beyond the classroom. Whether through internships, hackathons, technical clubs, exhibitions, research presentations, or hosting events, I have consistently looked for opportunities to learn, contribute, and grow. These experiences helped me strengthen not only my technical skills, but also teamwork, communication, adaptability, and problem-solving abilities.\n\nAs I ascend into my professional career, I look forward to work on meaningful products, collaborate with talented teams, and create technology that makes a positive impact while growing both professionally and personally.",
 },
 };
-
-export const ADMIN_DEFAULT_PASSWORD = "farzeen2025";
