@@ -252,7 +252,7 @@ export const defaultData = {
     title: "BNMIT Podcast",
     description:
       "Honored and delighted to have hosted a podcast on Self-Awareness with Prof. Priyanka Padki as part of the BNMIT initiative",
-    image: "https://media.licdn.com/dms/image/v2/D5622AQHtFakxwDUrRQ/feedshare-image-high-res/feedshare-image-high-res/0/1733159604921?e=1782345600&v=beta&t=BLshoSoiL-Hgt91_4rYFV36nRBZSAUYUKhe4SQXxVg4",
+    image: "https://www.image2url.com/r2/default/images/1786293894886-fc92e716-bd8f-47c8-b102-702a62107662.jfif",
     link: "https://www.youtube.com/watch?v=XzU-Ms-K2bM",
   },
 
@@ -284,7 +284,7 @@ export const defaultData = {
     description:
       "Demonstrated technical projects and research work to faculty members, industry professionals and visitors during the institute's annual project exhibition.",
     images: [
-      "https://www.image2url.com/r2/default/images/1780723716151-38d57e68-4612-4de1-b77e-6874758b2b15.jfif"
+      "https://www.image2url.com/r2/default/images/1786293899117-1a1d58c4-fdcf-496c-aea9-3594251a62c1.jfif","https://www.image2url.com/r2/default/images/1780723716151-38d57e68-4612-4de1-b77e-6874758b2b15.jfif"
     ],
     link: "",
   },
@@ -311,7 +311,7 @@ export const defaultData = {
     title: "Hack-A-League (HAL)",
     description:
       "Participated in Hack-A-League, a 24-hour National Level Offline Hackathon organized by the Department of Computer Science and Engineering, Global Academy of Technology. Collaborated in a fast-paced environment to design and develop innovative technology solutions.",
-    images: ["https://media.licdn.com/dms/image/v2/D5622AQGgObvhSw7dmw/feedshare-shrink_480/B56ZTpO6eHHQAY-/0/1739079793821?e=1782345600&v=beta&t=2BjJY_cnigpLviE1poDik16S8AuQuQyE5DdxTQDEcbQ","https://media.licdn.com/dms/image/v2/D5622AQFEZz0EIGuoWw/feedshare-shrink_480/B56ZTpO6eVGoAY-/0/1739079795122?e=1782345600&v=beta&t=idl5KVnHnpFy0cEr4rfxG5wbIbJwI4hjojt3CAgSJLc"],
+    images: ["https://www.image2url.com/r2/default/images/1786293892657-4db25f50-9e8a-40bc-a6bc-68002e5bbc65.jfif"],
     link: "",
   },
 
@@ -329,7 +329,7 @@ export const defaultData = {
     description:
       "Selected for Samsung PRISM and completed advanced training in Python programming, data structures, algorithms and data analytics while working on industry-oriented problem statements.",
     images: [
-      "https://media.licdn.com/dms/image/v2/D5622AQEoVDCb0NVhNA/feedshare-shrink_480/feedshare-shrink_480/0/1727534202187?e=1782345600&v=beta&t=XCvUCeErsx24uwwH5A0fYl0IzdW11E4ZKua6qSyiFZY"
+      "https://www.image2url.com/r2/default/images/1786293893861-e65443cd-b2ca-47ed-8287-f7d8e99ce6e4.jfif","https://www.image2url.com/r2/default/images/1786293898850-0e8a2f48-02e5-4d1b-b2b8-7eca03230083.jfif"
     ],
     link: "",
   },
