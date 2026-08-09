@@ -329,7 +329,7 @@ export const defaultData = {
     description:
       "Selected for Samsung PRISM and completed advanced training in Python programming, data structures, algorithms and data analytics while working on industry-oriented problem statements.",
     images: [
-      "https://www.image2url.com/r2/default/images/1786293893861-e65443cd-b2ca-47ed-8287-f7d8e99ce6e4.jfif","https://www.image2url.com/r2/default/images/1786293898850-0e8a2f48-02e5-4d1b-b2b8-7eca03230083.jfif"
+      "https://www.image2url.com/r2/default/images/1786295707928-11c59095-1ba5-42f8-b6a4-e726e2181660.jfif"
     ],
     link: "",
   },
