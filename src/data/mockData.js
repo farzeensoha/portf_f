@@ -319,8 +319,8 @@ export const defaultData = {
     id: "ev-9",
     title: "BNMIT Open Day 2024",
     description:
-      "Presented projects and research work to industry professionals, faculty members, students and visitors during BNMIT Open Day 2026, demonstrating technical solutions and innovation-driven development.",
-    images: ["https://media.licdn.com/dms/image/v2/D5622AQEY7kAldErtUg/feedshare-shrink_480/feedshare-shrink_480/0/1716731691213?e=1782345600&v=beta&t=0hVtwVkCkPuy2RsJEe8y1-kjR-6BUUXeD8V1VbWkG4k","https://media.licdn.com/dms/image/v2/D5622AQGjelOxOa_Qog/feedshare-shrink_480/feedshare-shrink_480/0/1716731690340?e=1782345600&v=beta&t=964h5GEXH8i9IoHvk6jp5zw7kN8O_ZWbNh-AMSy9Sxo"],
+      "Presented projects and research work to industry professionals, faculty members, students and visitors during BNMIT Open Day 2024, demonstrating technical solutions and innovation-driven development.",
+    images: ["https://www.image2url.com/r2/default/images/1786293893861-e65443cd-b2ca-47ed-8287-f7d8e99ce6e4.jfif","https://www.image2url.com/r2/default/images/1786293898850-0e8a2f48-02e5-4d1b-b2b8-7eca03230083.jfif"],
     link: "",
   },
   {
